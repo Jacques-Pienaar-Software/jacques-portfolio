@@ -1,0 +1,72 @@
+.review-card {
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Top left: Avatar or Icon */
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+  }
+
+  /* Top center: Text related to the avatar */
+  .top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .description {
+    font-weight: bold;
+    color: #777;
+    font-size: 0.9rem;
+  }
+
+  /* Center-left: Review content (text spanning the width) */
+  .review-content {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    text-align: left;
+  }
+
+  /* Bottom right: 5 stars drawn in CSS */
+  .stars {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .star {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: gold;
+  }
+
+  .star.empty {
+    background-color: #e4e4e4;
+  }

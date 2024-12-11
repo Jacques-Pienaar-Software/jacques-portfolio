@@ -1,0 +1,32 @@
+.panel {
+    width: 45vw;
+    border-radius: 10px;
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 20px;
+
+    .panel-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        width: 20%;
+    }
+
+    .panel-number {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        font-size: 2rem;
+    }
+
+    .panel-content {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+}
