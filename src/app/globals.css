@@ -131,9 +131,9 @@ h4 {
   .content-container {
     position: absolute;
     top: 30vh;
-    left: 0; 
-    right: 0; 
-    margin-inline: auto; 
+    left: 0;
+    right: 0;
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -243,7 +243,7 @@ h4 {
 
 .header-logo {
   position: absolute;
-  top: 3rem;
+  top: 0;
   left: 0; 
   right: 0; 
   margin-inline: auto; 

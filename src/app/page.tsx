@@ -1,5 +1,6 @@
 "use client";
 
+import BouncingImage from "./components/BouncingLogo/BouncingLogo";
 import Footer from "./components/Footer/Footer";
 import InfoCard from "./components/InfoCard/InfoCard";
 import Panel from "./components/Panel/Panel";
@@ -21,9 +22,9 @@ export default function Home() {
           </div>
         </div>
 
-        <img src="./logo-bars.png" className="logo-bars" />
-
-        <img className="header-logo" src="./logo.png" alt="" />
+        <div className="header-logo">
+          <BouncingImage imageSrc={"./logo-bars.png"} />
+        </div>
 
         <div className="content-container">
           <h4 className="dimmed">
